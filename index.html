@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+
+<body>
+  <form class="form" action="#">
+    <fieldset class="form__title">
+      <legend>Регистрация</legend>
+    </fieldset>
+    <fieldset class="form__feilds">
+      <div class="col form__mail">
+        <label for="e-mail">E-mail</label>
+        <input class="" type="email" id="e-mail" name="e-mail" placeholder="example@site.domain">
+      </div>
+      <div class="col form__password">
+        <label for="password-1">Пароль</label>
+        <input class="" type="password" id="password-1" name="password" placeholder="password">
+      </div>
+      <div class="col form__password">
+        <label for="password-2">Повторите пароль</label>
+        <input class="" type="password" id="password-2" name="password" placeholder="password">
+      </div>
+      <div class="col form__name">
+        <label for="name">ФИО</label>
+        <input class="form__name" type="text" id="name" name="name" placeholder="Игорев Игорь Игоревич">
+      </div>
+      <div class="col form__age">
+        <label for="age">Возраст</label>
+        <input class="" type="number" id="age" name="age" placeholder="18">
+      </div>
+    </fieldset>
+    <fieldset class="form__buttons">
+      <button class="form_button form__batton_dark">Отправить</button>
+      <button class="form_button form__batton_grey">Отмена</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>
